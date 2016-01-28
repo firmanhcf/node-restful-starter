@@ -2,7 +2,7 @@ module.exports = function(app, controller){
 
 	//# Route list
 	app.get('/', function(req, res) {
-        res.redirect('http://getmaleo.com/not-found');
+        res.send('This is Node Restful Starter project');
     });
 
     //# User Route
