@@ -1,0 +1,42 @@
+{
+  "name": "app-name",
+  "version": "1.0.0",
+  "description": "Node Restful Starter",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "Firman H C Fattah",
+    "email": "fattahfirman@gmail.com",
+    "url": "http://www.firmanhcf.com/"
+  },
+  "homepage": "https://github.com/firmanhcf/node-restful-starter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firmanhcf/node-restful-starter"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "express": "~3.4.4",
+    "path": "~0.12.7",
+    "underscore": "~1.8.3",
+    "mongoose": "~4.3.6",
+    "multer": "~1.1.0",
+    "crypto": "0.0.3",
+    "jsonwebtoken": "~5.5.4",
+    "node-mandrill": "~1.0.1"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js"
+}
